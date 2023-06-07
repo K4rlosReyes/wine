@@ -10,7 +10,7 @@ from sklearn.model_selection import train_test_split, cross_val_score
 from sklearn.feature_selection import SelectKBest, f_classif
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
-:
+
 # Fix seed for reproducibility
 torch.manual_seed(42)
 
